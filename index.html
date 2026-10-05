@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gmail &amp; Contacts MCP Connector</title>
+<!-- Google Search Console verification (meta-tag method):
+     uncomment the line below and paste your token if you choose this method.
+<meta name="google-site-verification" content="PASTE_YOUR_TOKEN_HERE">
+-->
+<style>
+  :root{--ink:#1a1d21;--muted:#5b6572;--line:#e3e7ec;--accent:#1a73e8;--bg:#fbfcfd}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",Roboto,"Helvetica Neue",Arial,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:64px 24px 96px}
+  h1{font-size:30px;line-height:1.3;margin:0 0 8px;letter-spacing:-.01em}
+  .sub{color:var(--muted);margin:0 0 40px;font-size:17px}
+  h2{font-size:19px;margin:40px 0 12px;padding-top:24px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0;padding-top:0}
+  p,li{color:var(--ink)}
+  ul{padding-left:22px}
+  li{margin:6px 0}
+  code{background:#eef1f5;padding:2px 6px;border-radius:4px;font-size:14px;
+       font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .meta{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px 24px;margin:28px 0}
+  .meta dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 20px}
+  .meta dt{color:var(--muted);font-size:14px}
+  .meta dd{margin:0;font-size:14px}
+  a{color:var(--accent)}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:14px}
+  .zh{color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Gmail &amp; Contacts MCP Connector</h1>
+  <p class="sub">A personal-use OAuth application that connects a local Model Context Protocol (MCP)
+  server to the owner's own Google account.</p>
+
+  <div class="meta">
+    <dl>
+      <dt>Application type</dt><dd>Personal / single-user, desktop client (OAuth 2.0, installed app)</dd>
+      <dt>Owner &amp; sole user</dt><dd>nadihill956@gmail.com</dd>
+      <dt>Support contact</dt><dd><a href="mailto:nadihill956@gmail.com">nadihill956@gmail.com</a></dd>
+      <dt>Hosting</dt><dd>Static documentation only (GitHub Pages). No backend server.</dd>
+    </dl>
+  </div>
+
+  <h2>What this application is</h2>
+  <p>This is a <strong>private, personal-use tool</strong>. It is not distributed, not published to any
+  app store, and not offered to the public. It runs entirely on the owner's own computer and is used
+  by exactly one person — the owner of the Google account it is authorized against.</p>
+  <p class="zh">本应用为<strong>个人自用工具</strong>，不对外发布、不分发、不提供任何公共服务，
+  仅在本机运行，且仅由 Google 账号本人使用。</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads the owner's Gmail messages, threads, labels and drafts, and can send mail on the owner's behalf.</li>
+    <li>Reads and manages the owner's Google Contacts.</li>
+    <li>Exposes these operations to a local AI assistant through the Model Context Protocol.</li>
+  </ul>
+  <p class="zh">功能：读取本人 Gmail 邮件/标签/草稿、代本人发送邮件、读写本人 Google 通讯录，
+  并通过本地 MCP 协议提供给本机 AI 助手调用。</p>
+
+  <h2>Where your data goes</h2>
+  <p><strong>Nowhere.</strong> There is no server component, no cloud storage, and no third-party
+  analytics. OAuth tokens and any cached data are stored only in files on the owner's own machine.
+  See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+  <p class="zh">数据不出本机：本应用无服务端、无云存储、无第三方统计。令牌与缓存仅存于本机文件。</p>
+
+  <h2>Legal</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy Policy / 隐私权政策</a></li>
+    <li><a href="terms.html">Terms of Service / 服务条款</a></li>
+  </ul>
+
+  <footer>
+    Last updated: 2026-10-05 · Contact: <a href="mailto:nadihill956@gmail.com">nadihill956@gmail.com</a>
+  </footer>
+
+</main>
+</body>
+</html>
